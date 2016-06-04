@@ -28,19 +28,20 @@
       <file leaf-file-name="nyc_tree_density.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nyc_tree_density.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25059667">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.46770602">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <marker date="1465072968000" expanded="true" signature="6610:6662" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="6610:6681" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="6682:6874" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="6682:7625" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="7355:7549" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="7355:7583" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="7355:7625" placeholder="..." />
-                <marker date="1465072968000" expanded="true" signature="7617:7625" placeholder="..." />
+                <element signature="n#style#0;n#div#2;n#body#0;n#!!top" expanded="true" />
+                <marker date="1465073924000" expanded="true" signature="6748:6800" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="6748:6819" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="6820:7012" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="6820:7763" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="7493:7687" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="7493:7721" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="7493:7763" placeholder="..." />
+                <marker date="1465073924000" expanded="true" signature="7755:7763" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -93,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -114,7 +116,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,14 +339,14 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1510574" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14879154" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16782247" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32714286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28223497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -382,33 +383,15 @@
           <folding>
             <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1465072968000" expanded="true" signature="6610:6662" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6610:6681" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6682:6874" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6682:7625" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7549" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7583" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7625" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7617:7625" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nyc_tree_density.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1465072968000" expanded="true" signature="6610:6662" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6610:6681" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6682:6874" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6682:7625" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7549" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7583" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7625" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7617:7625" placeholder="..." />
+            <element signature="n#style#0;n#div#2;n#body#0;n#!!top" expanded="true" />
+            <marker date="1465073924000" expanded="true" signature="6748:6800" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="6748:6819" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="6820:7012" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="6820:7763" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7493:7687" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7493:7721" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7493:7763" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7755:7763" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -429,19 +412,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nyc_tree_density.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25059667">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.46770602">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1465072968000" expanded="true" signature="6610:6662" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6610:6681" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6682:6874" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="6682:7625" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7549" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7583" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7355:7625" placeholder="..." />
-            <marker date="1465072968000" expanded="true" signature="7617:7625" placeholder="..." />
+            <element signature="n#style#0;n#div#2;n#body#0;n#!!top" expanded="true" />
+            <marker date="1465073924000" expanded="true" signature="6748:6800" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="6748:6819" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="6820:7012" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="6820:7763" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7493:7687" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7493:7721" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7493:7763" placeholder="..." />
+            <marker date="1465073924000" expanded="true" signature="7755:7763" placeholder="..." />
           </folding>
         </state>
       </provider>

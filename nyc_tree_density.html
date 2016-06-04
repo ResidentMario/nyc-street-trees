@@ -36,6 +36,9 @@ select {
 <div style="position:absolute; left:80px; top:20px; font-family:Roboto; font-weight:bold; font-size:30px;">
     New York City Tree Density<br/>by Neighborhood
 </div>
+<div style="position:absolute; left:260px; top:121px; font-family:Roboto; font-weight:bold; font-size:14px;">
+    (Trees / Person)
+</div>
 <div id="mapHolder">
 
 </div>
@@ -218,59 +221,65 @@ function paint(selection){
         });
         map.init();
 
-//        var legend = d3.select('#legend')
-//                .append('ul')
-//                .attr('class','list-inline');
-//
-//        var keys = legend.selectAll('li.key')
-//                .data(function(){
-//                    if (selection == "Density by Area") {
-//                        return tree_by_area_color.range();
-//                    }
-//                    else {
-//                        return tree_by_population_color.range();
-//                    }
-//                });
-//
-//        keys.enter().append('li')
-//                .attr('class','key')
-//                .style('border-top-color',String)
-//                .text(function(d){
-//                    var
-//                })
+        d3.select(".legend").remove();
+
+        d3.select("body").append("svg")
+                .attr({
+                    "class": "legend"
+                })
+                .style({
+                    "position": "absolute",
+                    "left": 40,
+                    "top": 40
+                });
+
+        if(selection == "Density by Population") {
+            var legend = d3.legend.color()
+                .shapeHeight(15)
+                .shapeWidth(40)
+                .shapePadding(0)
+                .cells([0.003144, 0.0209, 0.03466, 0.043656, 0.054486, 0.075988, 0.1120, 3.024])
+                .labelOffset(5)
+                .labelFormat(d3.format('.03f'))
+                .orient("horizontal")
+    //            .ascending(true)
+                .labelAlign("center")
+                .scale(tree_by_population_color);
+
+            d3.select(".legend")
+                .call(legend)
+                .style({
+                    "position": "absolute",
+                    "left": 80,
+                    "top": 160
+                });
+        }
+
+        if(selection == "Density by Area") {
+            var legend = d3.legend.color()
+                .shapeHeight(15)
+                .shapeWidth(40)
+                .shapePadding(0)
+                .cells(8)
+                .labelOffset(5)
+                .labelFormat(d3.format('.00f'))
+                .orient("horizontal")
+    //            .ascending(true)
+                .labelAlign("center")
+                .scale(tree_by_area_color);
+
+            d3.select(".legend")
+                .call(legend)
+                .style({
+                    "position": "absolute",
+                    "left": 80,
+                    "top": 160
+                });
+        }
+
+
 
     });
-
-    d3.select("body").append("svg")
-            .attr({
-                "class": "legend"
-            })
-            .style({
-                "position": "absolute",
-                "left": 40,
-                "top": 40
-            });
-
-    var legend = d3.legend.color()
-            .shapeHeight(15)
-            .shapeWidth(40)
-            .shapePadding(0)
-            .cells([0.003144, 0.0209, 0.03466, 0.043656, 0.054486, 0.075988, 0.1120, 3.024])
-            .labelOffset(5)
-            .labelFormat(d3.format('.03f'))
-            .orient("horizontal")
-//            .ascending(true)
-            .labelAlign("center")
-            .scale(tree_by_population_color);
-
-    d3.select(".legend")
-        .call(legend)
-        .style({
-            "position": "absolute",
-            "left": 80,
-            "top": 160
-        });
-
 }
 
 </script>
