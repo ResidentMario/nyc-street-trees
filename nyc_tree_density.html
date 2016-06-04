@@ -49,7 +49,6 @@ select {
         var entity_selection = document.getElementById('selectMenu');
         var newIndex = entity_selection.selectedIndex;
         var newValue = entity_selection[newIndex].text;
-        // console.log(newValue);
         d3.select("canvas").remove();
         paint(newValue);
     }
@@ -58,48 +57,16 @@ select {
             .domain([0, 5845])
             .range(['#f7fcf5', '#00441b']);
 
-//    var tree_by_population_color = d3.scale.quantile()
-//            .domain([0.003, 3.024])
-//            .range(['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c']);
     var tree_by_population_color = d3.scale.linear()
             .domain([0.003144, 0.0209, 0.03466, 0.043656, 0.054486, 0.075988, 0.1120, 3.024])
             .range(['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#084594']);
 
 
     var colorvar = 'ntrees';
-//var color = d3.scale.linear()
-//    // .range(['#eee','#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b']);
-//        .range(['#f7fcf5', '#00441b']);
 
     paint("Density by Population");
 
-//d3.select("body").append("svg")
-//        .attr({
-//            "class": "legend"
-//        })
-//        .style({
-//            "position": "absolute",
-//            "left": 40,
-//            "top": 40
-//        });
-
-//var legend = d3.legend.color()
-//        .shapeHeight(300)
-//        .shapeWidth(300)
-//        .shapePadding(0)
-//        .cells(10)
-//        .labelOffset(100)
-//        .labelFormat(d3.format("%"))
-//        .orient("vertical")
-//        .ascending(true)
-//        .labelAlign("start")
-//        .scale(color);
-//
-//d3.select(".legend")
-//    .call(legend);
-
 color_old = d3.scale.linear()
-    // .range(['#eee','#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b']);
         .domain([0, 5000])
         .range(['#f7fcf5', '#00441b']);
 
@@ -124,15 +91,18 @@ function color(selection, d) {
     }
     else {
         if (selection == "Density by Area") {
-            // console.log(d);
             return tree_by_area_color(d.properties.ntrees / d.properties.area);
         }
         else {
-            // console.log(d.properties.ntrees / d.properties.pop2010);
             return tree_by_population_color(d.properties.ntrees / d.properties.pop2010);
         }
     }
 }
+
+function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(find, 'g'), replace);
+}
+
 
 var mouseX, mouseY;
 var hover = null;
@@ -153,12 +123,6 @@ function handleMouseMove(event) {
 
 function paint(selection){
     d3.json("merge_clean.json", function(error, data) {
-    //    var map = new ZoomableCanvasMap({
-
-    //    console.log(d3.max(data, function(d) { console.log(d); return +d.properties[colorvar]; }));
-    //    color.domain([d3.min(data, function(d) { return +d.properties[colorvar]; }),
-    //        d3.max(data, function(d) { return +d.properties[colorvar]; })]);
-
         var map = new StaticCanvasMap({
             element: "#mapHolder",
             width: 800,
@@ -170,13 +134,8 @@ function paint(selection){
                     features: data,
                     static: {
                         paintfeature: function(parameters, d) {
-    //                        console.log(d.properties.ntrees);
-//                            parameters.context.fillStyle = color_with_nulls(d.properties.ntrees / d.properties.area);
                             parameters.context.fillStyle = color(selection, d);
                             parameters.context.fill();
-    //                        parameters.context.lineWidth = 1.0;
-    //                        parameters.context.strokeStyle = 'rgba(0,0,0,0.2)';
-    //                        parameters.context.stroke()
                         }
                     },
                     dynamic: {
@@ -202,7 +161,7 @@ function paint(selection){
                                         "<strong>Area:&nbsp;</strong>" +
                                         "<span>" + hover.properties.area + "</span><br/>" +
                                                 "<strong>Top Five Species:&nbsp;</strong>" +
-                                                "<span>"+ hover.properties.top5 +"</span>"
+                                                "<span><br/><ol><li>"+ replaceAll(hover.properties.top5, ";", "</li><li>") +"</li></ol></span>"
                                 + "</div>")
                         }
                     },
@@ -239,7 +198,6 @@ function paint(selection){
                 .labelOffset(5)
                 .labelFormat(d3.format('.03f'))
                 .orient("horizontal")
-    //            .ascending(true)
                 .labelAlign("center")
                 .scale(tree_by_population_color);
 
@@ -261,7 +219,6 @@ function paint(selection){
                 .labelOffset(5)
                 .labelFormat(d3.format('.00f'))
                 .orient("horizontal")
-    //            .ascending(true)
                 .labelAlign("center")
                 .scale(tree_by_area_color);
 
@@ -287,7 +244,6 @@ function paint(selection){
                     "font-size": "14px"
                 })
                 .text(function(d) {
-                    console.log(selection);
                     if(selection == "Density by Population") {
                         return "(Trees / Person)";
                     }
@@ -296,11 +252,6 @@ function paint(selection){
                     }
                 });
         });
-
-//<!--<div style="position:absolute; left:260px; top:121px; font-family:Roboto; font-weight:bold; font-size:14px;">-->
-//    <!--(Trees / Person)-->
-//</div>
-
 }
 
 </script>
