@@ -36,9 +36,6 @@ select {
 <div style="position:absolute; left:80px; top:20px; font-family:Roboto; font-weight:bold; font-size:30px;">
     New York City Tree Density<br/>by Neighborhood
 </div>
-<div style="position:absolute; left:260px; top:121px; font-family:Roboto; font-weight:bold; font-size:14px;">
-    (Trees / Person)
-</div>
 <div id="mapHolder">
 
 </div>
@@ -52,7 +49,7 @@ select {
         var entity_selection = document.getElementById('selectMenu');
         var newIndex = entity_selection.selectedIndex;
         var newValue = entity_selection[newIndex].text;
-        console.log(newValue);
+        // console.log(newValue);
         d3.select("canvas").remove();
         paint(newValue);
     }
@@ -127,11 +124,11 @@ function color(selection, d) {
     }
     else {
         if (selection == "Density by Area") {
-            console.log(d);
+            // console.log(d);
             return tree_by_area_color(d.properties.ntrees / d.properties.area);
         }
         else {
-            console.log(d.properties.ntrees / d.properties.pop2010);
+            // console.log(d.properties.ntrees / d.properties.pop2010);
             return tree_by_population_color(d.properties.ntrees / d.properties.pop2010);
         }
     }
@@ -277,9 +274,33 @@ function paint(selection){
                 });
         }
 
+        d3.select(".legend_label").remove();
 
+        d3.select("body").append("div")
+                .attr("class", "legend_label")
+                .style({
+                    "position": "absolute",
+                    "left": "260px",
+                    "top": "121px",
+                    "font-family": "Roboto",
+                    "font-weight": "bold",
+                    "font-size": "14px"
+                })
+                .text(function(d) {
+                    console.log(selection);
+                    if(selection == "Density by Population") {
+                        return "(Trees / Person)";
+                    }
+                    else {
+                        return "(Trees / Square Mile)"
+                    }
+                });
+        });
 
-    });
+//<!--<div style="position:absolute; left:260px; top:121px; font-family:Roboto; font-weight:bold; font-size:14px;">-->
+//    <!--(Trees / Person)-->
+//</div>
+
 }
 
 </script>
