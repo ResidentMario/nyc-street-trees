@@ -7,6 +7,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.10.0/d3-legend.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 <!DOCTYPE html>
 <meta charset="utf-8" />
@@ -18,7 +19,7 @@ select {
     display: table;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     width: 400px;
     height: 100px;
     font-weight: normal;
@@ -252,11 +253,11 @@ function paint(selection){
 
     var legend = d3.legend.color()
             .shapeHeight(15)
-            .shapeWidth(30)
+            .shapeWidth(40)
             .shapePadding(0)
-            .cells(8)
+            .cells([0.003144, 0.0209, 0.03466, 0.043656, 0.054486, 0.075988, 0.1120, 3.024])
             .labelOffset(5)
-//            .labelFormat(d3.format("%"))
+            .labelFormat(d3.format('.03f'))
             .orient("horizontal")
 //            .ascending(true)
             .labelAlign("center")
