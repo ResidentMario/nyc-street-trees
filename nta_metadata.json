@@ -1,0 +1,1363 @@
+[
+   {
+      "nta_code":"BK09",
+      "Borough":"Brooklyn",
+      "2010pop":22887,
+      "ntrees":1635,
+      "top_5":"London Planetree;Honeylocust var. inermis;Callery Pear;Ginkgo;Pin Oak"
+   },
+   {
+      "nta_code":"BK17",
+      "Borough":"Brooklyn",
+      "2010pop":64518,
+      "ntrees":4802,
+      "top_5":"London Planetree;Pin Oak;Honeylocust var. inermis;Japanese Zelkova;Norway Maple"
+   },
+   {
+      "nta_code":"BK19",
+      "Borough":"Brooklyn",
+      "2010pop":35547,
+      "ntrees":1067,
+      "top_5":"London Planetree;Japanese Zelkova;Honeylocust var. inermis;Green Ash;Cherry"
+   },
+   {
+      "nta_code":"BK21",
+      "Borough":"Brooklyn",
+      "2010pop":31965,
+      "ntrees":1493,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Sophora;Eastern Redcedar;Purple Leaf Plum"
+   },
+   {
+      "nta_code":"BK23",
+      "Borough":"Brooklyn",
+      "2010pop":17750,
+      "ntrees":472,
+      "top_5":"London Planetree;American Elm;Siberian Elm;Sophora;Green Ash"
+   },
+   {
+      "nta_code":"BK25",
+      "Borough":"Brooklyn",
+      "2010pop":44316,
+      "ntrees":3536,
+      "top_5":"London Planetree;Honeylocust var. inermis;Japanese Zelkova;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK26",
+      "Borough":"Brooklyn",
+      "2010pop":29436,
+      "ntrees":1024,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Norway Maple;Sophora"
+   },
+   {
+      "nta_code":"BK27",
+      "Borough":"Brooklyn",
+      "2010pop":29931,
+      "ntrees":374,
+      "top_5":"London Planetree;Callery Pear;Sophora;Japanese Zelkova;Ginkgo"
+   },
+   {
+      "nta_code":"BK28",
+      "Borough":"Brooklyn",
+      "2010pop":88727,
+      "ntrees":1482,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Japanese Zelkova;Callery Pear"
+   },
+   {
+      "nta_code":"BK29",
+      "Borough":"Brooklyn",
+      "2010pop":62978,
+      "ntrees":2112,
+      "top_5":"London Planetree;Pin Oak;Honeylocust var. inermis;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK30",
+      "Borough":"Brooklyn",
+      "2010pop":42419,
+      "ntrees":701,
+      "top_5":"London Planetree;Callery Pear;Pin Oak;Norway Maple;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BK31",
+      "Borough":"Brooklyn",
+      "2010pop":79371,
+      "ntrees":1084,
+      "top_5":"London Planetree;Callery Pear;Japanese Zelkova;Pin Oak;Norway Maple"
+   },
+   {
+      "nta_code":"BK32",
+      "Borough":"Brooklyn",
+      "2010pop":54041,
+      "ntrees":1127,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Japanese Zelkova;Sophora"
+   },
+   {
+      "nta_code":"BK33",
+      "Borough":"Brooklyn",
+      "2010pop":38353,
+      "ntrees":3966,
+      "top_5":"London Planetree;Honeylocust var. inermis;Callery Pear;Pin Oak;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK34",
+      "Borough":"Brooklyn",
+      "2010pop":72340,
+      "ntrees":844,
+      "top_5":"London Planetree;Pin Oak;Honeylocust var. inermis;Green Ash;Ginkgo"
+   },
+   {
+      "nta_code":"BK35",
+      "Borough":"Brooklyn",
+      "2010pop":63504,
+      "ntrees":2245,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK37",
+      "Borough":"Brooklyn",
+      "2010pop":67649,
+      "ntrees":5877,
+      "top_5":"Pin Oak;London Planetree;Honeylocust var. inermis;Ginkgo;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK38",
+      "Borough":"Brooklyn",
+      "2010pop":34495,
+      "ntrees":2880,
+      "top_5":"London Planetree;Honeylocust var. inermis;Ginkgo;Japanese Zelkova;Pin Oak"
+   },
+   {
+      "nta_code":"BK40",
+      "Borough":"Brooklyn",
+      "2010pop":20988,
+      "ntrees":1413,
+      "top_5":"London Planetree;Pin Oak;Callery Pear;Little-Leaf Linden;Sophora"
+   },
+   {
+      "nta_code":"BK41",
+      "Borough":"Brooklyn",
+      "2010pop":36891,
+      "ntrees":1096,
+      "top_5":"Honeylocust var. inermis;London Planetree;Japanese Zelkova;Little-Leaf Linden;Scarlet Oak"
+   },
+   {
+      "nta_code":"BK42",
+      "Borough":"Brooklyn",
+      "2010pop":105804,
+      "ntrees":4031,
+      "top_5":"London Planetree;Honeylocust var. inermis;Japanese Zelkova;Pin Oak;Norway Maple"
+   },
+   {
+      "nta_code":"BK43",
+      "Borough":"Brooklyn",
+      "2010pop":52835,
+      "ntrees":3137,
+      "top_5":"London Planetree;Norway Maple;Little-Leaf Linden;Japanese Zelkova;Callery Pear"
+   },
+   {
+      "nta_code":"BK44",
+      "Borough":"Brooklyn",
+      "2010pop":38917,
+      "ntrees":3010,
+      "top_5":"London Planetree;Norway Maple;Pin Oak;Honeylocust var. inermis;Cherry"
+   },
+   {
+      "nta_code":"BK45",
+      "Borough":"Brooklyn",
+      "2010pop":45231,
+      "ntrees":3523,
+      "top_5":"London Planetree;Callery Pear;Norway Maple;Cherry;Japanese Zelkova"
+   },
+   {
+      "nta_code":"BK46",
+      "Borough":"Brooklyn",
+      "2010pop":20299,
+      "ntrees":2292,
+      "top_5":"London Planetree;Little-Leaf Linden;Japanese Zelkova;Norway Maple;American Elm"
+   },
+   {
+      "nta_code":"BK50",
+      "Borough":"Brooklyn",
+      "2010pop":83693,
+      "ntrees":4195,
+      "top_5":"London Planetree;Norway Maple;Cherry;Honeylocust var. inermis;Japanese Zelkova"
+   },
+   {
+      "nta_code":"BK58",
+      "Borough":"Brooklyn",
+      "2010pop":64762,
+      "ntrees":2528,
+      "top_5":"London Planetree;Norway Maple;Japanese Zelkova;Pin Oak;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BK60",
+      "Borough":"Brooklyn",
+      "2010pop":67459,
+      "ntrees":444,
+      "top_5":"Pin Oak;Honeylocust var. inermis;London Planetree;Japanese Zelkova;American Linden"
+   },
+   {
+      "nta_code":"BK61",
+      "Borough":"Brooklyn",
+      "2010pop":103169,
+      "ntrees":3583,
+      "top_5":"American Elm;Honeylocust var. inermis;Pin Oak;London Planetree;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK63",
+      "Borough":"Brooklyn",
+      "2010pop":39670,
+      "ntrees":507,
+      "top_5":"American Elm;London Planetree;Honeylocust var. inermis;Japanese Zelkova;Pin Oak"
+   },
+   {
+      "nta_code":"BK64",
+      "Borough":"Brooklyn",
+      "2010pop":19849,
+      "ntrees":1412,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK68",
+      "Borough":"Brooklyn",
+      "2010pop":26079,
+      "ntrees":1865,
+      "top_5":"London Planetree;Honeylocust var. inermis;Little-Leaf Linden;Pin Oak;Ginkgo"
+   },
+   {
+      "nta_code":"BK69",
+      "Borough":"Brooklyn",
+      "2010pop":34791,
+      "ntrees":2535,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Ginkgo;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK72",
+      "Borough":"Brooklyn",
+      "2010pop":32926,
+      "ntrees":1370,
+      "top_5":"London Planetree;Honeylocust var. inermis;Callery Pear;Little-Leaf Linden;Green Ash"
+   },
+   {
+      "nta_code":"BK73",
+      "Borough":"Brooklyn",
+      "2010pop":45774,
+      "ntrees":3240,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Pin Oak;London Planetree;Callery Pear"
+   },
+   {
+      "nta_code":"BK75",
+      "Borough":"Brooklyn",
+      "2010pop":70713,
+      "ntrees":3259,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Callery Pear;Sophora"
+   },
+   {
+      "nta_code":"BK76",
+      "Borough":"Brooklyn",
+      "2010pop":34719,
+      "ntrees":4359,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Little-Leaf Linden;London Planetree;Callery Pear"
+   },
+   {
+      "nta_code":"BK77",
+      "Borough":"Brooklyn",
+      "2010pop":57138,
+      "ntrees":2916,
+      "top_5":"Honeylocust var. inermis;London Planetree;Japanese Zelkova;Little-Leaf Linden;Sophora"
+   },
+   {
+      "nta_code":"BK78",
+      "Borough":"Brooklyn",
+      "2010pop":72101,
+      "ntrees":3109,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Pin Oak;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK79",
+      "Borough":"Brooklyn",
+      "2010pop":31935,
+      "ntrees":996,
+      "top_5":"Little-Leaf Linden;Honeylocust var. inermis;Japanese Zelkova;London Planetree;Sophora"
+   },
+   {
+      "nta_code":"BK81",
+      "Borough":"Brooklyn",
+      "2010pop":58300,
+      "ntrees":1254,
+      "top_5":"London Planetree;Honeylocust var. inermis;Japanese Zelkova;Pin Oak;Sycamore Maple"
+   },
+   {
+      "nta_code":"BK82",
+      "Borough":"Brooklyn",
+      "2010pop":91958,
+      "ntrees":9588,
+      "top_5":"London Planetree;Cherry;Honeylocust var. inermis;Japanese Zelkova;Pin Oak"
+   },
+   {
+      "nta_code":"BK83",
+      "Borough":"Brooklyn",
+      "2010pop":49223,
+      "ntrees":3531,
+      "top_5":"London Planetree;Cherry;Honeylocust var. inermis;Little-Leaf Linden;Pin Oak"
+   },
+   {
+      "nta_code":"BK85",
+      "Borough":"Brooklyn",
+      "2010pop":29343,
+      "ntrees":2955,
+      "top_5":"Honeylocust var. inermis;London Planetree;Japanese Zelkova;Cherry;Callery Pear"
+   },
+   {
+      "nta_code":"BK88",
+      "Borough":"Brooklyn",
+      "2010pop":106357,
+      "ntrees":1413,
+      "top_5":"London Planetree;Norway Maple;Honeylocust var. inermis;Pin Oak;Callery Pear"
+   },
+   {
+      "nta_code":"BK90",
+      "Borough":"Brooklyn",
+      "2010pop":34158,
+      "ntrees":2099,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Japanese Zelkova;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BK91",
+      "Borough":"Brooklyn",
+      "2010pop":50355,
+      "ntrees":580,
+      "top_5":"London Planetree;Norway Maple;Pin Oak;Japanese Zelkova;Cherry"
+   },
+   {
+      "nta_code":"BK93",
+      "Borough":"Brooklyn",
+      "2010pop":13354,
+      "ntrees":334,
+      "top_5":"London Planetree;Honeylocust var. inermis;Callery Pear;Japanese Treelilac;Ginkgo"
+   },
+   {
+      "nta_code":"BK95",
+      "Borough":"Brooklyn",
+      "2010pop":29938,
+      "ntrees":621,
+      "top_5":"Japanese Zelkova;Little-Leaf Linden;Honeylocust var. inermis;London Planetree;Pin Oak"
+   },
+   {
+      "nta_code":"BK96",
+      "Borough":"Brooklyn",
+      "2010pop":55326,
+      "ntrees":331,
+      "top_5":"Pin Oak;Honeylocust var. inermis;London Planetree;Callery Pear;Green Ash"
+   },
+   {
+      "nta_code":"BK99",
+      "Borough":"Brooklyn",
+      "2010pop":418,
+      "ntrees":1264,
+      "top_5":"London Planetree;Pin Oak;Norway Maple;Japanese Zelkova;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BX01",
+      "Borough":"Bronx",
+      "2010pop":31078,
+      "ntrees":1643,
+      "top_5":"Honeylocust var. inermis;London Planetree;Callery Pear;Japanese Zelkova;Northern Red Oak"
+   },
+   {
+      "nta_code":"BX03",
+      "Borough":"Bronx",
+      "2010pop":34517,
+      "ntrees":2680,
+      "top_5":"London Planetree;Pin Oak;Cherry;Maple;Callery Pear"
+   },
+   {
+      "nta_code":"BX05",
+      "Borough":"Bronx",
+      "2010pop":54415,
+      "ntrees":1794,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Japanese Zelkova;Little-Leaf Linden;Ginkgo"
+   },
+   {
+      "nta_code":"BX06",
+      "Borough":"Bronx",
+      "2010pop":27378,
+      "ntrees":1479,
+      "top_5":"Honeylocust var. inermis;London Planetree;Sophora;Japanese Zelkova;Callery Pear"
+   },
+   {
+      "nta_code":"BX07",
+      "Borough":"Bronx",
+      "2010pop":35538,
+      "ntrees":1514,
+      "top_5":"Pin Oak;London Planetree;Honeylocust var. inermis;Norway Maple;Cherry"
+   },
+   {
+      "nta_code":"BX08",
+      "Borough":"Bronx",
+      "2010pop":35011,
+      "ntrees":1637,
+      "top_5":"Honeylocust var. inermis;Norway Maple;Little-Leaf Linden;London Planetree;Green Ash"
+   },
+   {
+      "nta_code":"BX09",
+      "Borough":"Bronx",
+      "2010pop":53686,
+      "ntrees":3636,
+      "top_5":"London Planetree;Honeylocust var. inermis;Cherry;Japanese Zelkova;Pin Oak"
+   },
+   {
+      "nta_code":"BX10",
+      "Borough":"Bronx",
+      "2010pop":26583,
+      "ntrees":3127,
+      "top_5":"London Planetree;Callery Pear;Norway Maple;Little-Leaf Linden;Cherry"
+   },
+   {
+      "nta_code":"BX13",
+      "Borough":"Bronx",
+      "2010pop":43752,
+      "ntrees":2093,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Callery Pear;Cherry"
+   },
+   {
+      "nta_code":"BX14",
+      "Borough":"Bronx",
+      "2010pop":62284,
+      "ntrees":2443,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;London Planetree;Sophora;Callery Pear"
+   },
+   {
+      "nta_code":"BX17",
+      "Borough":"Bronx",
+      "2010pop":43423,
+      "ntrees":2374,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Callery Pear;Little-Leaf Linden;Pin Oak"
+   },
+   {
+      "nta_code":"BX22",
+      "Borough":"Bronx",
+      "2010pop":27860,
+      "ntrees":1976,
+      "top_5":"Norway Maple;London Planetree;Pin Oak;Callery Pear;Red Maple"
+   },
+   {
+      "nta_code":"BX26",
+      "Borough":"Bronx",
+      "2010pop":37727,
+      "ntrees":1843,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Callery Pear;London Planetree;Sophora"
+   },
+   {
+      "nta_code":"BX27",
+      "Borough":"Bronx",
+      "2010pop":27204,
+      "ntrees":3501,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Cherry;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX28",
+      "Borough":"Bronx",
+      "2010pop":50100,
+      "ntrees":2288,
+      "top_5":"Pin Oak;Honeylocust var. inermis;London Planetree;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX29",
+      "Borough":"Bronx",
+      "2010pop":30161,
+      "ntrees":1877,
+      "top_5":"Pin Oak;Honeylocust var. inermis;Callery Pear;Norway Maple;London Planetree"
+   },
+   {
+      "nta_code":"BX30",
+      "Borough":"Bronx",
+      "2010pop":32496,
+      "ntrees":1187,
+      "top_5":"Pin Oak;Honeylocust var. inermis;Callery Pear;American Linden;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX31",
+      "Borough":"Bronx",
+      "2010pop":28903,
+      "ntrees":3845,
+      "top_5":"London Planetree;Norway Maple;Pin Oak;Cherry;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BX33",
+      "Borough":"Bronx",
+      "2010pop":26196,
+      "ntrees":1563,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Japanese Zelkova;Pin Oak;Ginkgo"
+   },
+   {
+      "nta_code":"BX34",
+      "Borough":"Bronx",
+      "2010pop":39214,
+      "ntrees":2156,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Callery Pear;Sophora;London Planetree"
+   },
+   {
+      "nta_code":"BX35",
+      "Borough":"Bronx",
+      "2010pop":37865,
+      "ntrees":2282,
+      "top_5":"Honeylocust var. inermis;Callery Pear;London Planetree;Japanese Zelkova;Ginkgo"
+   },
+   {
+      "nta_code":"BX36",
+      "Borough":"Bronx",
+      "2010pop":54188,
+      "ntrees":2071,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Callery Pear;London Planetree;Cherry"
+   },
+   {
+      "nta_code":"BX37",
+      "Borough":"Bronx",
+      "2010pop":29250,
+      "ntrees":3136,
+      "top_5":"London Planetree;Cherry;Pin Oak;Norway Maple;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BX39",
+      "Borough":"Bronx",
+      "2010pop":52413,
+      "ntrees":2505,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Japanese Zelkova;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX40",
+      "Borough":"Bronx",
+      "2010pop":28262,
+      "ntrees":1028,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Japanese Zelkova;Callery Pear;Ginkgo"
+   },
+   {
+      "nta_code":"BX41",
+      "Borough":"Bronx",
+      "2010pop":51807,
+      "ntrees":2000,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Pin Oak;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX43",
+      "Borough":"Bronx",
+      "2010pop":40494,
+      "ntrees":1797,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Callery Pear;Japanese Zelkova;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX44",
+      "Borough":"Bronx",
+      "2010pop":61321,
+      "ntrees":3219,
+      "top_5":"Honeylocust var. inermis;Cherry;London Planetree;Pin Oak;Japanese Zelkova"
+   },
+   {
+      "nta_code":"BX46",
+      "Borough":"Bronx",
+      "2010pop":29821,
+      "ntrees":790,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Red Maple;Willow Oak"
+   },
+   {
+      "nta_code":"BX49",
+      "Borough":"Bronx",
+      "2010pop":30073,
+      "ntrees":2299,
+      "top_5":"Norway Maple;London Planetree;Pin Oak;Little-Leaf Linden;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BX52",
+      "Borough":"Bronx",
+      "2010pop":44167,
+      "ntrees":5004,
+      "top_5":"London Planetree;Callery Pear;Norway Maple;Honeylocust var. inermis;Pin Oak"
+   },
+   {
+      "nta_code":"BX55",
+      "Borough":"Bronx",
+      "2010pop":35634,
+      "ntrees":1902,
+      "top_5":"London Planetree;Pin Oak;Little-Leaf Linden;American Linden;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"BX59",
+      "Borough":"Bronx",
+      "2010pop":27248,
+      "ntrees":2769,
+      "top_5":"Honeylocust var. inermis;London Planetree;Cherry;Japanese Zelkova;Callery Pear"
+   },
+   {
+      "nta_code":"BX62",
+      "Borough":"Bronx",
+      "2010pop":42483,
+      "ntrees":3958,
+      "top_5":"Honeylocust var. inermis;London Planetree;Norway Maple;Pin Oak;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"BX63",
+      "Borough":"Bronx",
+      "2010pop":39282,
+      "ntrees":2096,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;London Planetree;Sophora;Pin Oak"
+   },
+   {
+      "nta_code":"BX75",
+      "Borough":"Bronx",
+      "2010pop":20277,
+      "ntrees":1409,
+      "top_5":"Honeylocust var. inermis;Japanese Zelkova;Callery Pear;Little-Leaf Linden;Cherry"
+   },
+   {
+      "nta_code":"BX98",
+      "Borough":"Bronx",
+      "2010pop":11091
+   },
+   {
+      "nta_code":"BX99",
+      "Borough":"Bronx",
+      "2010pop":1906,
+      "ntrees":1397,
+      "top_5":"Pin Oak;Ginkgo;London Planetree;Honeylocust var. inermis;Japanese Zelkova"
+   },
+   {
+      "nta_code":"MN01",
+      "Borough":"Manhattan",
+      "2010pop":46746,
+      "ntrees":1717,
+      "top_5":"Japanese Zelkova;Honeylocust var. inermis;Pin Oak;Sophora;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"MN03",
+      "Borough":"Manhattan",
+      "2010pop":75282,
+      "ntrees":3513,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Pin Oak;Sophora;London Planetree"
+   },
+   {
+      "nta_code":"MN04",
+      "Borough":"Manhattan",
+      "2010pop":48520,
+      "ntrees":2410,
+      "top_5":"Pin Oak;Honeylocust var. inermis;Sophora;London Planetree;Callery Pear"
+   },
+   {
+      "nta_code":"MN06",
+      "Borough":"Manhattan",
+      "2010pop":22950,
+      "ntrees":910,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Pin Oak;London Planetree;Sophora"
+   },
+   {
+      "nta_code":"MN09",
+      "Borough":"Manhattan",
+      "2010pop":55929,
+      "ntrees":2599,
+      "top_5":"Honeylocust var. inermis;Ginkgo;American Elm;Callery Pear;Pin Oak"
+   },
+   {
+      "nta_code":"MN11",
+      "Borough":"Manhattan",
+      "2010pop":43383,
+      "ntrees":2574,
+      "top_5":"Honeylocust var. inermis;London Planetree;Callery Pear;Japanese Zelkova;Ginkgo"
+   },
+   {
+      "nta_code":"MN12",
+      "Borough":"Manhattan",
+      "2010pop":132378,
+      "ntrees":5770,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Ginkgo;Sophora;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"MN13",
+      "Borough":"Manhattan",
+      "2010pop":70150,
+      "ntrees":3032,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Japanese Zelkova;Pin Oak;Ginkgo"
+   },
+   {
+      "nta_code":"MN14",
+      "Borough":"Manhattan",
+      "2010pop":61489,
+      "ntrees":2078,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Sophora;Pin Oak;Ginkgo"
+   },
+   {
+      "nta_code":"MN15",
+      "Borough":"Manhattan",
+      "2010pop":45884,
+      "ntrees":2011,
+      "top_5":"Honeylocust var. inermis;Ginkgo;Callery Pear;Sophora;Japanese Zelkova"
+   },
+   {
+      "nta_code":"MN17",
+      "Borough":"Manhattan",
+      "2010pop":28630,
+      "ntrees":1212,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Ginkgo;Sophora;Japanese Zelkova"
+   },
+   {
+      "nta_code":"MN19",
+      "Borough":"Manhattan",
+      "2010pop":51231,
+      "ntrees":2230,
+      "top_5":"Honeylocust var. inermis;Ginkgo;Callery Pear;Japanese Zelkova;Sophora"
+   },
+   {
+      "nta_code":"MN20",
+      "Borough":"Manhattan",
+      "2010pop":50742,
+      "ntrees":1739,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Sophora;Ginkgo;Pin Oak"
+   },
+   {
+      "nta_code":"MN21",
+      "Borough":"Manhattan",
+      "2010pop":27988,
+      "ntrees":1134,
+      "top_5":"Honeylocust var. inermis;Ginkgo;Callery Pear;Sophora;London Planetree"
+   },
+   {
+      "nta_code":"MN22",
+      "Borough":"Manhattan",
+      "2010pop":44136,
+      "ntrees":1581,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Sophora;Ginkgo;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"MN23",
+      "Borough":"Manhattan",
+      "2010pop":66880,
+      "ntrees":3793,
+      "top_5":"Callery Pear;Honeylocust var. inermis;Ginkgo;Sophora;London Planetree"
+   },
+   {
+      "nta_code":"MN24",
+      "Borough":"Manhattan",
+      "2010pop":42742,
+      "ntrees":2215,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Japanese Zelkova;Ginkgo;Sophora"
+   },
+   {
+      "nta_code":"MN25",
+      "Borough":"Manhattan",
+      "2010pop":39699,
+      "ntrees":1332,
+      "top_5":"Honeylocust var. inermis;Little-Leaf Linden;Callery Pear;Japanese Zelkova;Willow Oak"
+   },
+   {
+      "nta_code":"MN27",
+      "Borough":"Manhattan",
+      "2010pop":47844,
+      "ntrees":1468,
+      "top_5":"London Planetree;Honeylocust var. inermis;Ginkgo;Japanese Zelkova;Callery Pear"
+   },
+   {
+      "nta_code":"MN28",
+      "Borough":"Manhattan",
+      "2010pop":72957,
+      "ntrees":1932,
+      "top_5":"Honeylocust var. inermis;Callery Pear;London Planetree;Sophora;Ginkgo"
+   },
+   {
+      "nta_code":"MN31",
+      "Borough":"Manhattan",
+      "2010pop":80771,
+      "ntrees":2370,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Ginkgo;Little-Leaf Linden;Sophora"
+   },
+   {
+      "nta_code":"MN32",
+      "Borough":"Manhattan",
+      "2010pop":77942,
+      "ntrees":2269,
+      "top_5":"Honeylocust var. inermis;Callery Pear;Ginkgo;Little-Leaf Linden;Sophora"
+   },
+   {
+      "nta_code":"MN33",
+      "Borough":"Manhattan",
+      "2010pop":57902,
+      "ntrees":1886,
+      "top_5":"Honeylocust var. inermis;London Planetree;Japanese Zelkova;Callery Pear;Pin Oak"
+   },
+   {
+      "nta_code":"MN34",
+      "Borough":"Manhattan",
+      "2010pop":58019,
+      "ntrees":2597,
+      "top_5":"Honeylocust var. inermis;Callery Pear;London Planetree;Japanese Zelkova;Pin Oak"
+   },
+   {
+      "nta_code":"MN35",
+      "Borough":"Manhattan",
+      "2010pop":67136,
+      "ntrees":2571,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Japanese Zelkova;Sophora;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"MN36",
+      "Borough":"Manhattan",
+      "2010pop":84438,
+      "ntrees":2887,
+      "top_5":"Honeylocust var. inermis;Sophora;Pin Oak;Callery Pear;Japanese Zelkova"
+   },
+   {
+      "nta_code":"MN40",
+      "Borough":"Manhattan",
+      "2010pop":61207,
+      "ntrees":4211,
+      "top_5":"Callery Pear;Honeylocust var. inermis;Ginkgo;Sophora;Cherry"
+   },
+   {
+      "nta_code":"MN50",
+      "Borough":"Manhattan",
+      "2010pop":21049,
+      "ntrees":437,
+      "top_5":"Honeylocust var. inermis;London Planetree;Sophora;Ginkgo;Japanese Zelkova"
+   },
+   {
+      "nta_code":"MN99",
+      "Borough":"Manhattan",
+      "2010pop":1849,
+      "ntrees":1251,
+      "top_5":"American Elm;Pin Oak;London Planetree;Ginkgo;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN01",
+      "Borough":"Queens",
+      "2010pop":38894,
+      "ntrees":480,
+      "top_5":"Pin Oak;Callery Pear;London Planetree;Sophora;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"QN02",
+      "Borough":"Queens",
+      "2010pop":25409,
+      "ntrees":227,
+      "top_5":"London Planetree;Honeylocust var. inermis;Callery Pear;Pin Oak;Cherry"
+   },
+   {
+      "nta_code":"QN03",
+      "Borough":"Queens",
+      "2010pop":20132,
+      "ntrees":1865,
+      "top_5":"Cherry;Honeylocust var. inermis;Norway Maple;Pin Oak;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN05",
+      "Borough":"Queens",
+      "2010pop":25063,
+      "ntrees":2052,
+      "top_5":"Norway Maple;Honeylocust var. inermis;London Planetree;Ginkgo;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN06",
+      "Borough":"Queens",
+      "2010pop":25480,
+      "ntrees":1288,
+      "top_5":"Pin Oak;London Planetree;Norway Maple;Ginkgo;Callery Pear"
+   },
+   {
+      "nta_code":"QN07",
+      "Borough":"Queens",
+      "2010pop":20269,
+      "ntrees":175,
+      "top_5":"London Planetree;Pin Oak;Norway Maple;Callery Pear;Catalpa"
+   },
+   {
+      "nta_code":"QN08",
+      "Borough":"Queens",
+      "2010pop":48593,
+      "ntrees":389,
+      "top_5":"Honeylocust var. inermis;Pin Oak;London Planetree;Cherry;Ginkgo"
+   },
+   {
+      "nta_code":"QN10",
+      "Borough":"Queens",
+      "2010pop":28018,
+      "ntrees":3735,
+      "top_5":"Honeylocust var. inermis;Callery Pear;London Planetree;Cherry;Norway Maple"
+   },
+   {
+      "nta_code":"QN12",
+      "Borough":"Queens",
+      "2010pop":36885,
+      "ntrees":2992,
+      "top_5":"Callery Pear;Cherry;Honeylocust var. inermis;Sophora;Japanese Zelkova"
+   },
+   {
+      "nta_code":"QN15",
+      "Borough":"Queens",
+      "2010pop":50058,
+      "ntrees":4981,
+      "top_5":"Honeylocust var. inermis;London Planetree;Cherry;Callery Pear;Japanese Zelkova"
+   },
+   {
+      "nta_code":"QN17",
+      "Borough":"Queens",
+      "2010pop":83728,
+      "ntrees":6356,
+      "top_5":"London Planetree;Pin Oak;Honeylocust var. inermis;Norway Maple;Callery Pear"
+   },
+   {
+      "nta_code":"QN18",
+      "Borough":"Queens",
+      "2010pop":28260,
+      "ntrees":2387,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Maple;Green Ash"
+   },
+   {
+      "nta_code":"QN19",
+      "Borough":"Queens",
+      "2010pop":32496,
+      "ntrees":592,
+      "top_5":"London Planetree;Callery Pear;Pin Oak;Norway Maple;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN20",
+      "Borough":"Queens",
+      "2010pop":69317,
+      "ntrees":6109,
+      "top_5":"Honeylocust var. inermis;Norway Maple;London Planetree;Little-Leaf Linden;Green Ash"
+   },
+   {
+      "nta_code":"QN21",
+      "Borough":"Queens",
+      "2010pop":37929,
+      "ntrees":1364,
+      "top_5":"London Planetree;Callery Pear;Norway Maple;Little-Leaf Linden;Pin Oak"
+   },
+   {
+      "nta_code":"QN22",
+      "Borough":"Queens",
+      "2010pop":72008,
+      "ntrees":1416,
+      "top_5":"Pin Oak;London Planetree;Honeylocust var. inermis;Callery Pear;Green Ash"
+   },
+   {
+      "nta_code":"QN23",
+      "Borough":"Queens",
+      "2010pop":24275,
+      "ntrees":2660,
+      "top_5":"London Planetree;Cherry;Pin Oak;Callery Pear;American Linden"
+   },
+   {
+      "nta_code":"QN25",
+      "Borough":"Queens",
+      "2010pop":57658,
+      "ntrees":1850,
+      "top_5":"Callery Pear;London Planetree;Honeylocust var. inermis;Pin Oak;Norway Maple"
+   },
+   {
+      "nta_code":"QN26",
+      "Borough":"Queens",
+      "2010pop":52037,
+      "ntrees":1556,
+      "top_5":"Pin Oak;Cherry;Callery Pear;Honeylocust var. inermis;London Planetree"
+   },
+   {
+      "nta_code":"QN27",
+      "Borough":"Queens",
+      "2010pop":23150,
+      "ntrees":1364,
+      "top_5":"Pin Oak;Honeylocust var. inermis;Green Ash;London Planetree;Norway Maple"
+   },
+   {
+      "nta_code":"QN28",
+      "Borough":"Queens",
+      "2010pop":108152,
+      "ntrees":6027,
+      "top_5":"London Planetree;Norway Maple;Honeylocust var. inermis;Pin Oak;Callery Pear"
+   },
+   {
+      "nta_code":"QN29",
+      "Borough":"Queens",
+      "2010pop":88427,
+      "ntrees":3148,
+      "top_5":"Honeylocust var. inermis;Pin Oak;Green Ash;Callery Pear;Norway Maple"
+   },
+   {
+      "nta_code":"QN30",
+      "Borough":"Queens",
+      "2010pop":30516,
+      "ntrees":646,
+      "top_5":"Honeylocust var. inermis;Norway Maple;London Planetree;Pin Oak;Cherry"
+   },
+   {
+      "nta_code":"QN31",
+      "Borough":"Queens",
+      "2010pop":63271,
+      "ntrees":4935,
+      "top_5":"London Planetree;Honeylocust var. inermis;Callery Pear;Pin Oak;Sophora"
+   },
+   {
+      "nta_code":"QN33",
+      "Borough":"Queens",
+      "2010pop":18677,
+      "ntrees":281,
+      "top_5":"London Planetree;Honeylocust var. inermis;Sophora;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN34",
+      "Borough":"Queens",
+      "2010pop":52504,
+      "ntrees":2806,
+      "top_5":"Norway Maple;Pin Oak;Callery Pear;London Planetree;Cherry"
+   },
+   {
+      "nta_code":"QN35",
+      "Borough":"Queens",
+      "2010pop":39138,
+      "ntrees":246,
+      "top_5":"London Planetree;Norway Maple;Pin Oak;Honeylocust var. inermis;Japanese Zelkova"
+   },
+   {
+      "nta_code":"QN37",
+      "Borough":"Queens",
+      "2010pop":37479,
+      "ntrees":621,
+      "top_5":"London Planetree;Pin Oak;Norway Maple;Callery Pear;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"QN38",
+      "Borough":"Queens",
+      "2010pop":34034,
+      "ntrees":1275,
+      "top_5":"Pin Oak;London Planetree;Honeylocust var. inermis;Norway Maple;Callery Pear"
+   },
+   {
+      "nta_code":"QN41",
+      "Borough":"Queens",
+      "2010pop":17812,
+      "ntrees":852,
+      "top_5":"London Planetree;Norway Maple;Pin Oak;Callery Pear;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN42",
+      "Borough":"Queens",
+      "2010pop":28237,
+      "ntrees":707,
+      "top_5":"London Planetree;Norway Maple;Pin Oak;Callery Pear;Red Maple"
+   },
+   {
+      "nta_code":"QN43",
+      "Borough":"Queens",
+      "2010pop":25287,
+      "ntrees":2532,
+      "top_5":"Honeylocust var. inermis;London Planetree;Pin Oak;Norway Maple;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN44",
+      "Borough":"Queens",
+      "2010pop":22571,
+      "ntrees":814,
+      "top_5":"Norway Maple;Ginkgo;London Planetree;Pin Oak;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"QN45",
+      "Borough":"Queens",
+      "2010pop":24739,
+      "ntrees":1731,
+      "top_5":"Pin Oak;London Planetree;Silver Maple;Norway Maple;Callery Pear"
+   },
+   {
+      "nta_code":"QN46",
+      "Borough":"Queens",
+      "2010pop":43808,
+      "ntrees":4669,
+      "top_5":"London Planetree;Pin Oak;Callery Pear;Norway Maple;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"QN47",
+      "Borough":"Queens",
+      "2010pop":21751,
+      "ntrees":576,
+      "top_5":"Pin Oak;London Planetree;Honeylocust var. inermis;Silver Maple;Callery Pear"
+   },
+   {
+      "nta_code":"QN48",
+      "Borough":"Queens",
+      "2010pop":19996,
+      "ntrees":525,
+      "top_5":"London Planetree;Pin Oak;Callery Pear;Norway Maple;Silver Maple"
+   },
+   {
+      "nta_code":"QN49",
+      "Borough":"Queens",
+      "2010pop":30773,
+      "ntrees":1497,
+      "top_5":"London Planetree;Cherry;Callery Pear;Pin Oak;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN50",
+      "Borough":"Queens",
+      "2010pop":25521,
+      "ntrees":1165,
+      "top_5":"Honeylocust var. inermis;London Planetree;Norway Maple;Little-Leaf Linden;Callery Pear"
+   },
+   {
+      "nta_code":"QN51",
+      "Borough":"Queens",
+      "2010pop":51739,
+      "ntrees":308,
+      "top_5":"London Planetree;Cherry;Pin Oak;Norway Maple;Silver Maple"
+   },
+   {
+      "nta_code":"QN52",
+      "Borough":"Queens",
+      "2010pop":26982,
+      "ntrees":1232,
+      "top_5":"Pin Oak;London Planetree;Norway Maple;Callery Pear;Cherry"
+   },
+   {
+      "nta_code":"QN53",
+      "Borough":"Queens",
+      "2010pop":56674,
+      "ntrees":527,
+      "top_5":"Pin Oak;Honeylocust var. inermis;London Planetree;Norway Maple;Green Ash"
+   },
+   {
+      "nta_code":"QN54",
+      "Borough":"Queens",
+      "2010pop":62982,
+      "ntrees":1331,
+      "top_5":"Pin Oak;London Planetree;Norway Maple;Honeylocust var. inermis;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN55",
+      "Borough":"Queens",
+      "2010pop":75878,
+      "ntrees":709,
+      "top_5":"London Planetree;Honeylocust var. inermis;Ginkgo;Little-Leaf Linden;Callery Pear"
+   },
+   {
+      "nta_code":"QN56",
+      "Borough":"Queens",
+      "2010pop":21376,
+      "ntrees":163,
+      "top_5":"Green Ash;Pin Oak;Honeylocust var. inermis;Norway Maple;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN57",
+      "Borough":"Queens",
+      "2010pop":26148,
+      "ntrees":2544,
+      "top_5":"Callery Pear;London Planetree;Cherry;Norway Maple;Pin Oak"
+   },
+   {
+      "nta_code":"QN60",
+      "Borough":"Queens",
+      "2010pop":23278,
+      "ntrees":1478,
+      "top_5":"Pin Oak;London Planetree;Norway Maple;Little-Leaf Linden;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"QN61",
+      "Borough":"Queens",
+      "2010pop":53751,
+      "ntrees":169,
+      "top_5":"Callery Pear;London Planetree;Pin Oak;Japanese Zelkova;Norway Maple"
+   },
+   {
+      "nta_code":"QN62",
+      "Borough":"Queens",
+      "2010pop":20800,
+      "ntrees":1242,
+      "top_5":"London Planetree;Cherry;Callery Pear;Honeylocust var. inermis;Pin Oak"
+   },
+   {
+      "nta_code":"QN63",
+      "Borough":"Queens",
+      "2010pop":45099,
+      "ntrees":1285,
+      "top_5":"Pin Oak;Honeylocust var. inermis;London Planetree;Japanese Zelkova;Little-Leaf Linden"
+   },
+   {
+      "nta_code":"QN66",
+      "Borough":"Queens",
+      "2010pop":24453,
+      "ntrees":505,
+      "top_5":"Pin Oak;Norway Maple;Sophora;Cherry;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"QN68",
+      "Borough":"Queens",
+      "2010pop":20030,
+      "ntrees":1173,
+      "top_5":"London Planetree;Honeylocust var. inermis;Pin Oak;Callery Pear;Japanese Zelkova"
+   },
+   {
+      "nta_code":"QN70",
+      "Borough":"Queens",
+      "2010pop":78793,
+      "ntrees":3289,
+      "top_5":"Pin Oak;London Planetree;Honeylocust var. inermis;Callery Pear;Cherry"
+   },
+   {
+      "nta_code":"QN71",
+      "Borough":"Queens",
+      "2010pop":27814,
+      "ntrees":1208,
+      "top_5":"Honeylocust var. inermis;Cherry;Callery Pear;London Planetree;Pin Oak"
+   },
+   {
+      "nta_code":"QN72",
+      "Borough":"Queens",
+      "2010pop":47534,
+      "ntrees":4855,
+      "top_5":"London Planetree;Pin Oak;Honeylocust var. inermis;Norway Maple;Green Ash"
+   },
+   {
+      "nta_code":"QN76",
+      "Borough":"Queens",
+      "2010pop":34603,
+      "ntrees":1024,
+      "top_5":"London Planetree;Honeylocust var. inermis;Norway Maple;Cherry;Pin Oak"
+   },
+   {
+      "nta_code":"QN98",
+      "Borough":"Queens",
+      "2010pop":0,
+      "ntrees":97,
+      "top_5":"Honeylocust var. inermis;Sophora;Callery Pear;Northern Red Oak;Japanese Zelkova"
+   },
+   {
+      "nta_code":"QN99",
+      "Borough":"Queens",
+      "2010pop":436,
+      "ntrees":1024,
+      "top_5":"London Planetree;Pin Oak;Honeylocust var. inermis;Little-Leaf Linden;Green Ash"
+   },
+   {
+      "nta_code":"SI01",
+      "Borough":"Staten Island",
+      "2010pop":27770,
+      "ntrees":12188,
+      "top_5":"Callery Pear;Red Maple;Sweetgum;Maple;London Planetree"
+   },
+   {
+      "nta_code":"SI05",
+      "Borough":"Staten Island",
+      "2010pop":39597,
+      "ntrees":7785,
+      "top_5":"Callery Pear;Red Maple;London Planetree;Pin Oak;Sweetgum"
+   },
+   {
+      "nta_code":"SI07",
+      "Borough":"Staten Island",
+      "2010pop":24102,
+      "ntrees":4703,
+      "top_5":"Pin Oak;London Planetree;Callery Pear;Red Maple;Sweetgum"
+   },
+   {
+      "nta_code":"SI08",
+      "Borough":"Staten Island",
+      "2010pop":22460,
+      "ntrees":2490,
+      "top_5":"London Planetree;Pin Oak;Callery Pear;Cherry;Red Maple"
+   },
+   {
+      "nta_code":"SI11",
+      "Borough":"Staten Island",
+      "2010pop":23313,
+      "ntrees":7501,
+      "top_5":"Callery Pear;Red Maple;Cherry;Sweetgum;Pin Oak"
+   },
+   {
+      "nta_code":"SI12",
+      "Borough":"Staten Island",
+      "2010pop":31474,
+      "ntrees":3470,
+      "top_5":"Callery Pear;Honeylocust var. inermis;Cherry;London Planetree;Red Maple"
+   },
+   {
+      "nta_code":"SI14",
+      "Borough":"Staten Island",
+      "2010pop":16079,
+      "ntrees":2125,
+      "top_5":"Callery Pear;London Planetree;Pin Oak;Cherry;Red Maple"
+   },
+   {
+      "nta_code":"SI22",
+      "Borough":"Staten Island",
+      "2010pop":33551,
+      "ntrees":3901,
+      "top_5":"London Planetree;Cherry;Callery Pear;Red Maple;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"SI24",
+      "Borough":"Staten Island",
+      "2010pop":30714,
+      "ntrees":4582,
+      "top_5":"Callery Pear;London Planetree;Pin Oak;Sweetgum;Red Maple"
+   },
+   {
+      "nta_code":"SI25",
+      "Borough":"Staten Island",
+      "2010pop":22049,
+      "ntrees":5406,
+      "top_5":"London Planetree;Callery Pear;Pin Oak;Red Maple;Silver Maple"
+   },
+   {
+      "nta_code":"SI28",
+      "Borough":"Staten Island",
+      "2010pop":20191,
+      "ntrees":2930,
+      "top_5":"London Planetree;Pin Oak;Red Maple;Cherry;Callery Pear"
+   },
+   {
+      "nta_code":"SI32",
+      "Borough":"Staten Island",
+      "2010pop":20763,
+      "ntrees":8690,
+      "top_5":"Callery Pear;Red Maple;Norway Maple;Silver Maple;Sweetgum"
+   },
+   {
+      "nta_code":"SI35",
+      "Borough":"Staten Island",
+      "2010pop":17525,
+      "ntrees":3468,
+      "top_5":"London Planetree;Callery Pear;Pin Oak;Red Maple;Cherry"
+   },
+   {
+      "nta_code":"SI36",
+      "Borough":"Staten Island",
+      "2010pop":24835,
+      "ntrees":4831,
+      "top_5":"Pin Oak;Callery Pear;London Planetree;Red Maple;Honeylocust var. inermis"
+   },
+   {
+      "nta_code":"SI37",
+      "Borough":"Staten Island",
+      "2010pop":26453,
+      "ntrees":3830,
+      "top_5":"Cherry;Callery Pear;Pin Oak;Japanese Zelkova;London Planetree"
+   },
+   {
+      "nta_code":"SI45",
+      "Borough":"Staten Island",
+      "2010pop":21896,
+      "ntrees":5187,
+      "top_5":"London Planetree;Callery Pear;Pin Oak;Cherry;Norway Maple"
+   },
+   {
+      "nta_code":"SI48",
+      "Borough":"Staten Island",
+      "2010pop":25238,
+      "ntrees":6643,
+      "top_5":"Callery Pear;Green Ash;Honeylocust var. inermis;Red Maple;Silver Maple"
+   },
+   {
+      "nta_code":"SI54",
+      "Borough":"Staten Island",
+      "2010pop":40720,
+      "ntrees":9999,
+      "top_5":"Callery Pear;Red Maple;Sweetgum;London Planetree;Pin Oak"
+   },
+   {
+      "nta_code":"SI99",
+      "Borough":"Staten Island",
+      "2010pop":0
+   }
+]

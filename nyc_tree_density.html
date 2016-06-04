@@ -1,0 +1,222 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="//cdn.rawgit.com/mourner/rbush/master/rbush.js"></script>
+<script src="//cdn.rawgit.com/newsappsio/spam/master/spam.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.10.0/d3-legend.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<style>
+select {
+    "position": absolute,
+}
+
+/*.legend {*/
+    /*display: table;*/
+    /*margin: 0 auto;*/
+    /*font-family: "Helvetica Neue", sans-serif;*/
+    /*font-size: 120px;*/
+    /*width: 500px;*/
+    /*height: 500px;*/
+/*}*/
+</style>
+
+<body>
+<div>
+    <select id="selectMenu" style="position:absolute; left:80px; top:120px;">
+        <option>Density by Population</option>
+        <option>Density by Area</option>
+    </select>
+</div>
+<div style="position:absolute; left:80px; top:20px; font-family:Roboto; font-weight:bold; font-size:30px;">
+    New York City Tree Density<br/>by Neighborhood
+</div>
+<div id="mapHolder">
+
+</div>
+
+<script type='text/javascript'>
+
+    d3.select("#selectMenu")
+            .on("change", criteriaChanged);
+
+    function criteriaChanged() {
+        var entity_selection = document.getElementById('selectMenu');
+        var newIndex = entity_selection.selectedIndex;
+        var newValue = entity_selection[newIndex].text;
+        console.log(newValue);
+        d3.select("canvas").remove();
+        paint(newValue);
+    }
+
+    var tree_by_area_color = d3.scale.linear()
+            .domain([0, 5845])
+            .range(['#f7fcf5', '#00441b']);
+
+//    var tree_by_population_color = d3.scale.quantile()
+//            .domain([0.003, 3.024])
+//            .range(['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c']);
+    var tree_by_population_color = d3.scale.linear()
+            .domain([0.003144, 0.0209, 0.03466, 0.043656, 0.054486, 0.075988, 0.1120, 3.024])
+            .range(['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#084594']);
+
+
+    var colorvar = 'ntrees';
+//var color = d3.scale.linear()
+//    // .range(['#eee','#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b']);
+//        .range(['#f7fcf5', '#00441b']);
+
+    paint("Density by Population");
+
+//d3.select("body").append("svg")
+//        .attr({
+//            "class": "legend"
+//        })
+//        .style({
+//            "position": "absolute",
+//            "left": 40,
+//            "top": 40
+//        });
+
+//var legend = d3.legend.color()
+//        .shapeHeight(300)
+//        .shapeWidth(300)
+//        .shapePadding(0)
+//        .cells(10)
+//        .labelOffset(100)
+//        .labelFormat(d3.format("%"))
+//        .orient("vertical")
+//        .ascending(true)
+//        .labelAlign("start")
+//        .scale(color);
+//
+//d3.select(".legend")
+//    .call(legend);
+
+color_old = d3.scale.linear()
+    // .range(['#eee','#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b']);
+        .domain([0, 5000])
+        .range(['#f7fcf5', '#00441b']);
+
+function color_with_nulls(prop) {
+    if(isNaN(prop)) {
+        return "#eee";
+    }
+    else if(prop == 0) {
+        return '#eee';
+    }
+    else {
+        return color_old(prop);
+    }
+}
+
+function color(selection, d) {
+    if(isNaN(d.properties.ntrees / d.properties.area)) {
+        return "#eee";
+    }
+    else if(d.properties.ntrees / d.properties.area == 0) {
+        return '#eee';
+    }
+    else {
+        if (selection == "Density by Area") {
+            console.log(d);
+            return tree_by_area_color(d.properties.ntrees / d.properties.area);
+        }
+        else {
+            console.log(d.properties.ntrees / d.properties.pop2010);
+            return tree_by_population_color(d.properties.ntrees / d.properties.pop2010);
+        }
+    }
+}
+
+var mouseX, mouseY;
+var hover = null;
+
+var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 1);
+
+document.onmousemove = handleMouseMove;
+function handleMouseMove(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    tooltip
+        .style("left", mouseX - 100 + "px")
+        .style("top", mouseY + 25 + "px")
+}
+
+
+function paint(selection){
+    d3.json("merge_clean.json", function(error, data) {
+    //    var map = new ZoomableCanvasMap({
+
+    //    console.log(d3.max(data, function(d) { console.log(d); return +d.properties[colorvar]; }));
+    //    color.domain([d3.min(data, function(d) { return +d.properties[colorvar]; }),
+    //        d3.max(data, function(d) { return +d.properties[colorvar]; })]);
+
+        var map = new StaticCanvasMap({
+            element: "#mapHolder",
+            width: 800,
+            height: 800,
+            projection: d3.geo.mercator()
+                    .center([-73.925, 40.79])
+                    .scale(80000),
+            data: [{
+                    features: data,
+                    static: {
+                        paintfeature: function(parameters, d) {
+    //                        console.log(d.properties.ntrees);
+//                            parameters.context.fillStyle = color_with_nulls(d.properties.ntrees / d.properties.area);
+                            parameters.context.fillStyle = color(selection, d);
+                            parameters.context.fill();
+    //                        parameters.context.lineWidth = 1.0;
+    //                        parameters.context.strokeStyle = 'rgba(0,0,0,0.2)';
+    //                        parameters.context.stroke()
+                        }
+                    },
+                    dynamic: {
+                        postpaint: function(parameters) {
+                            if (!hover) {
+                                tooltip.style("opacity", 0);
+                                return
+                            }
+
+                            parameters.context.beginPath();
+                            parameters.context.lineWidth = 1 / parameters.scale;
+                            parameters.path(hover);
+                            parameters.context.stroke();
+
+                            tooltip.style("opacity", 1)
+                                .html('<div style="padding:5px; background:#eee; border:1px solid #333; border-radius:5px;">' +
+                                                "<strong>Neighborhood:&nbsp;</strong>" +
+                                                "<span>"+ hover.properties.NTAName +"</span><br/>" +
+                                        "<strong>Population (2010):&nbsp;</strong>" +
+                                        "<span>"+ hover.properties.pop2010 + "</span><br />" +
+                                        "<strong>Number of Trees:&nbsp;</strong>" +
+                                        "<span>" + hover.properties.ntrees + "</span><br/>" +
+                                        "<strong>Area:&nbsp;</strong>" +
+                                        "<span>" + hover.properties.area + "</span><br/>" +
+                                                "<strong>Top Five Species:&nbsp;</strong>" +
+                                                "<span>"+ hover.properties.top5 +"</span>"
+                                + "</div>")
+                        }
+                    },
+                    events: {
+                        hover: function(parameters, d) {
+                            hover = d
+
+                            parameters.map.paint()
+                        }
+                    }
+     }
+            ]
+        });
+        map.init();
+    });
+
+}
+
+</script>
