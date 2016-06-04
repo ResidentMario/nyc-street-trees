@@ -5,6 +5,7 @@
 <script src="//cdn.rawgit.com/newsappsio/spam/master/spam.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.10.0/d3-legend.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.10.0/d3-legend.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
 <!DOCTYPE html>
@@ -13,15 +14,15 @@
 select {
     "position": absolute,
 }
-
-/*.legend {*/
-    /*display: table;*/
-    /*margin: 0 auto;*/
-    /*font-family: "Helvetica Neue", sans-serif;*/
-    /*font-size: 120px;*/
-    /*width: 500px;*/
-    /*height: 500px;*/
-/*}*/
+.legend {
+    display: table;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    width: 400px;
+    height: 100px;
+    font-weight: normal;
+}
 </style>
 
 <body>
@@ -206,7 +207,7 @@ function paint(selection){
                     },
                     events: {
                         hover: function(parameters, d) {
-                            hover = d
+                            hover = d;
 
                             parameters.map.paint()
                         }
@@ -215,7 +216,59 @@ function paint(selection){
             ]
         });
         map.init();
+
+//        var legend = d3.select('#legend')
+//                .append('ul')
+//                .attr('class','list-inline');
+//
+//        var keys = legend.selectAll('li.key')
+//                .data(function(){
+//                    if (selection == "Density by Area") {
+//                        return tree_by_area_color.range();
+//                    }
+//                    else {
+//                        return tree_by_population_color.range();
+//                    }
+//                });
+//
+//        keys.enter().append('li')
+//                .attr('class','key')
+//                .style('border-top-color',String)
+//                .text(function(d){
+//                    var
+//                })
+
     });
+
+    d3.select("body").append("svg")
+            .attr({
+                "class": "legend"
+            })
+            .style({
+                "position": "absolute",
+                "left": 40,
+                "top": 40
+            });
+
+    var legend = d3.legend.color()
+            .shapeHeight(15)
+            .shapeWidth(30)
+            .shapePadding(0)
+            .cells(8)
+            .labelOffset(5)
+//            .labelFormat(d3.format("%"))
+            .orient("horizontal")
+//            .ascending(true)
+            .labelAlign("center")
+            .scale(tree_by_population_color);
+
+    d3.select(".legend")
+        .call(legend)
+        .style({
+            "position": "absolute",
+            "left": 80,
+            "top": 160
+        });
 
 }
 
